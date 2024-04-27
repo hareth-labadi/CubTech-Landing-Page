@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from "next/image";
 
 const TalkCard = ({ title, logo, description }) => {
   const MAX_LOGO_SIZE = 200; // Adjust this value as desired
@@ -7,10 +8,11 @@ const TalkCard = ({ title, logo, description }) => {
     <div className="w-80 h-64 border border-gray-200 rounded-md shadow-md hover:shadow-primarysh hover:transform hover:scale-110 transition-all duration-200 flex flex-col">
       {/* Logo container with flexbox for centering */}
       <div className="flex justify-center items-center h-1/2">
-        <img
+      <Image
           src={`${logo}`}
           alt={`${title} logo`}
-          style={{ maxHeight: MAX_LOGO_SIZE, maxWidth: MAX_LOGO_SIZE }}
+          height= {MAX_LOGO_SIZE}
+          width= {MAX_LOGO_SIZE} 
         />
       </div>
       {/* Line */}

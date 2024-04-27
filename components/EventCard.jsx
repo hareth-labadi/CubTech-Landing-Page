@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from "next/image";
 
 const EventCard = ({ title, logo, description }) => {
   const MAX_LOGO_SIZE = 200; // Adjust this value as desired
@@ -11,10 +12,11 @@ const EventCard = ({ title, logo, description }) => {
       </div>
       {/* Logo container with flexbox for centering */}
       <div className="flex justify-center items-center h-1/2 border-b border-gray-200">
-        <img
+        <Image
           src={`${logo}`}
           alt={`${title} logo`}
-          style={{ maxHeight: MAX_LOGO_SIZE, maxWidth: MAX_LOGO_SIZE }}
+          height= {MAX_LOGO_SIZE}
+          width= {MAX_LOGO_SIZE} 
         />
       </div>
       {/* Description container */}
