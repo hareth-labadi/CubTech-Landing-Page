@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/)14 project 
+This is a [Next14](https://nextjs.org/) project 
 
 ## Live Demo
 See a deployed version of this project at: https://cubtech.vercel.app/
