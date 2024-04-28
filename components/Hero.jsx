@@ -13,7 +13,7 @@ const Hero = () => {
         </h1>
 
         <p className="text-gray-700 mb-10">
-          Cub Tech is a scientific club located within the men's residence of CUB1 at Bab Ezzouar. Our mission revolves around fostering a collaborative environment where knowledge sharing thrives. Through lectures, workshops, and collaborative projects, we aim to deepen understanding across various scientific disciplines, inspiring lifelong learning and a sense of camaraderie among our members.
+          Cub Tech is a scientific club located within the men&#39;s residence of CUB1 at Bab Ezzouar. Our mission revolves around fostering a collaborative environment where knowledge sharing thrives. Through lectures, workshops, and collaborative projects, we aim to deepen understanding across various scientific disciplines, inspiring lifelong learning and a sense of camaraderie among our members.
         </p>
 
         {/* Fix button hover effect (assuming missing hover styles) */}
