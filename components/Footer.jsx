@@ -17,7 +17,7 @@ const Footer = () => {
                   alt="Location"
                   width={20}
                   height={20}
-                  style={{ marginRight: "10px" }}
+                  className="mr-5"
                 />
                 <Link href="https://maps.app.goo.gl/57mzBTP4x82uD5pK8">
                   Cub 1, Abdelkader Belarbi, Bab Ezzouar
@@ -31,7 +31,7 @@ const Footer = () => {
                   alt="Email"
                   width={20}
                   height={20}
-                  style={{ marginRight: "10px" }}
+                  className="mr-5"
                 />
                 <a href="mailto:cub1@gmail.com">cubtechclub@gmail.com</a>
               </div>
@@ -43,7 +43,7 @@ const Footer = () => {
                   alt="Phone"
                   width={20}
                   height={20}
-                  style={{ marginRight: "10px" }}
+                  className="mr-5"
                 />
                 <a href="tel:+2130000000">+213 21 21 21</a>
               </div>
