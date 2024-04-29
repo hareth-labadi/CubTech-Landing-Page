@@ -9,7 +9,7 @@ const Events = () => {
       <p className="mb-10">
       Explore Our Latest Events
       </p>
-      <div className="grid grid-cols-3 sm:grid-cols-1 md:grid-cols-3 gap-4 mx-20 justify-items-center">
+      <div className="grid grid-cols-3 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-20 justify-items-center">
         {events.map((event, index) => (
           <EventCard key={event.title} {...event} />
         ))}
