@@ -26,10 +26,7 @@ const Navbar = () => {
         {NAV_LINKS.map((link) => (
           <li key={link.id} className={styles.navItem}>
             {/* Wrap link content directly in Link */}
-            <Link href={link.url}>
-              {link.title}
-              
-            </Link>
+            <Link href={link.url}>{link.title}</Link>
           </li>
         ))}
       </ul>

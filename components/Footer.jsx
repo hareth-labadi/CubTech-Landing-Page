@@ -54,16 +54,18 @@ const Footer = () => {
       <div>
         <h4 className="text-white mb-6">Follow Us</h4>
         <div className="flex gap-4">
-  {FOOTER_SOCIALS_ICONS.map((sm) => (
-    <div
-      className="w-8 h-8 bg-white_10 rounded-full flex items-center justify-center"
-      key={sm.id}
-    >
-      <Link href={sm.url}>  <Image src={sm.icon} alt={sm.alt} width={20} height={20} />
-      </Link>
-    </div>
-  ))}
-</div>
+          {FOOTER_SOCIALS_ICONS.map((sm) => (
+            <div
+              className="w-8 h-8 bg-white_10 rounded-full flex items-center justify-center"
+              key={sm.id}
+            >
+              <Link href={sm.url}>
+                {" "}
+                <Image src={sm.icon} alt={sm.alt} width={20} height={20} />
+              </Link>
+            </div>
+          ))}
+        </div>
       </div>
     </footer>
   );

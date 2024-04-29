@@ -1,4 +1,3 @@
-
 import Talks from "@/components/Talks";
 import Events from "@/components/Events";
 import Hero from "@/components/Hero";

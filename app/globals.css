@@ -15,8 +15,8 @@
   --silver: #f5f7fa;
   --white: #ffffff;
   --primary: #064662;
-  --primarysh: #B5C8D0;
-  --secondary: #ECB364;
+  --primarysh: #b5c8d0;
+  --secondary: #ecb364;
   --info: #2194f3;
   --shade_1: #43a046;
   --shade_2: #388e3b;
@@ -157,4 +157,3 @@
 .animate-float {
   animation: float 2s ease-in-out infinite;
 }
-

@@ -10,7 +10,7 @@ const LogoAnimate = () => {
           1000, // wait 1s before replacing "Mice" with "Hamsters"
           // Same substring at the start will only be typed out once, initially
           "",
-          1000 // wait 1s before replacing "Mice" with "Hamsters"
+          1000, // wait 1s before replacing "Mice" with "Hamsters"
         ]}
         wrapper="span"
         speed={50}

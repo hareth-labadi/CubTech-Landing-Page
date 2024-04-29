@@ -7,7 +7,7 @@ const NotFound = () => {
     <section className="max-container flex flex-col items-center gap-2 px-2 bg-silver pb-5">
       <h1 className="text-primary">Whoops!</h1>
       <p className="text-primary">404 Page Not Found</p>
-        <Image src={"/error.png"} width={400} height={400} alt="error" />
+      <Image src={"/error.png"} width={400} height={400} alt="error" />
       <h2 className="text-primary text-center">
         Looks like this page went on vacation.
       </h2>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import Image from "next/image";
 
 const EventCard = ({ title, logo, description }) => {
@@ -15,8 +15,8 @@ const EventCard = ({ title, logo, description }) => {
         <Image
           src={`${logo}`}
           alt={`${title} logo`}
-          height= {MAX_LOGO_SIZE}
-          width= {MAX_LOGO_SIZE} 
+          height={MAX_LOGO_SIZE}
+          width={MAX_LOGO_SIZE}
         />
       </div>
       {/* Description container */}
